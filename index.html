@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar do Paulo" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Paulo_</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou Estudante de Progamação há uns três anos. Atualmente estou aprendendo através da escola e de cursos por fora. Estudo sobre as linguagens de programação HTML, Scratch CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Crônicas do Milharal</h5>
+                        <p class="card-text">Este projeto é um jogo que fiz para ganhar o Concurso Agrinho 2024. O jogo é simples e consiste
+                            em uma busca por milhos evitando explosões.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Desafio das Alturas</h5>
+                        <p class="card-text">Outro projeto que eu criei para ganhar o concurso do agrinho, porém de 2022, o curso Alura disponibiliza como criar este jogo. Ele consiste numa espécie de Flappy Bird, tendo que apertar para dar impulso ao avião e tentar passar pelo meio dos picos de montanha.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Rocket Go
+                        </h5>
+                        <p class="card-text">Este projeto fiz no meu tempo livre para conhecer um pouco mais da linguagem Scratch, ela consiste em um foguete tendo que desviar de asteróides, pegar os raios e destruir esses asteróides
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Crônicas do Milharal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A construção do jogo no Scratch envolveu uma série de etapas essenciais, desde o planejamento e design dos cenários e personagens, até a programação de funcionalidades como movimentação, criação de clones, e controle de pontuação. Cada elemento foi cuidadosamente ajustado para oferecer ao jogador um equilíbrio entre dificuldade e diversão, ao mesmo tempo em que reforça a importância da agricultura e das oportunidades de desenvolvimento sustentável.</p>
+                    <p>Do ponto de vista técnico, o projeto conseguiu implementar conceitos importantes de lógica de programação, como geração de eventos aleatórios, controle de variáveis, e condições de vitória ou derrota. Esses conceitos não só enriquecem a jogabilidade, como também demonstram a capacidade da plataforma Scratch de criar jogos educativos dinâmicos.</p>
+                    <p>No futuro, o projeto pode ser expandido com novos níveis de dificuldade, mais tipos de produtos e obstáculos, e uma narrativa mais profunda, explorando outras facetas da relação entre o campo e a cidade. Ainda assim, como está, o jogo já se apresenta como uma ferramenta valiosa tanto para o aprendizado quanto para o entretenimento, destacando a capacidade dos jogos de transmitir mensagens sociais de forma acessível e interativa.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Cronicas do Milharal">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/1022046745/">Jogar Agora</a>
+                    <a href="https://scratch.mit.edu/projects/1022046745/editor/">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Desafio das Alturas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto do jogo de avião inspirado no estilo Flappy Bird foi desenvolvido com o objetivo de criar uma experiência simples, dinâmica e desafiadora para o jogador. Utilizando os recursos da plataforma Scratch, conseguimos elaborar uma mecânica de jogo acessível, mas que exige concentração, coordenação e precisão. </p>
+                    <p>Durante o desenvolvimento, focamos em elementos clássicos desse estilo: o controle do voo do avião com cliques ou toques no teclado, a presença de obstáculos móveis (picos de montanha) e o aumento gradual da dificuldade conforme o jogador avança. A simplicidade dos controles — apenas pressionando uma tecla para manter o avião no ar — torna o jogo fácil de aprender, mas difícil de dominar, o que é um dos grandes atrativos desse gênero.</p>
+                    <p>A programação envolveu o uso de detecção de colisão, geração contínua de obstáculos e sistema de pontuação baseado na distância percorrida ou obstáculos superados. Esses elementos garantem ao jogador uma motivação constante para superar suas próprias marcas e buscar a melhoria a cada nova tentativa.</p>
+                    <p>O visual e o som do jogo também foram planejados para criar uma ambientação agradável, com um cenário de céu e nuvens em movimento, reforçando a sensação de voo e velocidade.
+
+                        Por fim, o projeto atingiu seu objetivo ao oferecer uma experiência divertida, rápida e viciante, ideal para pequenos momentos de lazer. Além disso, proporcionou uma excelente oportunidade de aplicar conceitos de programação de jogos, lógica de repetição, variáveis, eventos e física simples (gravidade simulada), fundamentais para o aprendizado em ambientes de desenvolvimento como o Scratch.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Desafio das Alturas">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/719099169/">Jogue Agora</a>
+                    <a href="https://scratch.mit.edu/projects/719099169/editor/">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Rocket Go</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto do jogo "Rocket Go" foi idealizado para proporcionar uma experiência dinâmica e estratégica, em que o jogador precisa guiar um foguete pelo espaço, desviando de asteroides e utilizando poderes especiais para sobreviver e avançar de cenário.</p>
+                    <p>O desenvolvimento do jogo teve como foco unir duas mecânicas principais: a habilidade de desviar dos obstáculos — exigindo reflexos rápidos — e a possibilidade de coletar raios de energia no meio do percurso, que permitem ao jogador atacar e destruir os asteroides, acrescentando uma camada a mais de estratégia e controle.</p>
+                    <p>Além do aspecto divertido, o projeto também favoreceu o desenvolvimento de habilidades de lógica de programação no Scratch, como uso de variáveis (para contagem de raios e tiros), clones (para asteroides e tiros), eventos, colisões e transições de fase.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/672708447/">Jogar Agora</a>
+                    <a href="https://scratch.mit.edu/projects/672708447/editor/">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/petelakph">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Paulo Petelak</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
